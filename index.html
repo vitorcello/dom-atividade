@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Document Object Model</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="titulo">Fundação de Ensino de Contagem</h1>
+        <p>Curso de Frontend</p>
+
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </header>
+
+    <section>
+        <h2>Manipulação do DOM</h2>
+
+        <p>Este é um parágrafo que será utilizado nos exercícios.</p>
+        <p>Este é um texto com a classe destaque.</p>
+    </section>
+
+    <section>
+        <div id="caixa1">
+            <h2>Caixa 1</h2>
+            <p>Conteúdo da caixa</p>
+        </div>
+
+        <div id="caixa2">
+            <h2>Caixa 2</h2>
+            <p>Conteúdo da caixa</p>
+        </div>
+
+        <div id="caixa3">
+            <h2>Caixa 3</h2>
+            <p>Conteúdo da caixa</p>
+        </div>
+
+        <button type="button">Primário</button>
+        <button type="button">Secundário</button>
+    </section>
+
+    <section>
+        <h2>Lista de tecnologias</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>PHP</li>
+            <li>RUST</li>
+        </ul>
+    </section>
+
+    <!-- IMAGEM -->
+    <section>
+        <h2>Imagem</h2>
+
+        <img 
+            src="https://www.w3.org/html/logo/downloads/HTML5_Logo_128.png"
+            alt="Logo do HTML5"
+            width="150"
+        >
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section>
+        <h2>Formulário</h2>
+
+        <form>
+            <label for="nome">Nome</label><br>
+            <input 
+                type="text" 
+                id="nome" 
+                placeholder="Digite seu nome"
+            >
+            <br><br>
+
+            <label for="email">E-mail</label><br>
+            <input 
+                type="email" 
+                id="email" 
+                placeholder="Digite seu e-mail"
+            >
+            <br><br>
+
+            <label for="curso">Curso</label><br>
+            <select id="curso">
+                <option value="">Selecione</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+            <br><br>
+
+            <label for="comentario">Comentário</label><br>
+            <textarea 
+                id="comentario" 
+                rows="5" 
+                cols="30"
+                placeholder="Digite seu comentário"
+            ></textarea>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- TABELA -->
+    <section>
+        <h2>Tabela de alunos</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Curso</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>16</td>
+                    <td>HTML</td>
+                </tr>
+
+                <tr>
+                    <td>Maria</td>
+                    <td>17</td>
+                    <td>CSS</td>
+                </tr>
+
+                <tr>
+                    <td>Pedro</td>
+                    <td>16</td>
+                    <td>JavaScript</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- PARÁGRAFO FINAL -->
+    <p>
+        Curso de Frontend - Manipulação do DOM
+    </p>
+
+</body>
+</html>
